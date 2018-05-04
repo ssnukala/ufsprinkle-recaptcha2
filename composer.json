@@ -1,0 +1,26 @@
+{
+    "name": "ssnukala/ufsprinkle-recaptcha2",
+    "type": "userfrosting-sprinkle",
+    "description": "Google reCaptcha2 Sprinkle module for UserFrosting.",
+    "keywords": ["php user management", "usercake", "bootstrap","listings"],
+    "homepage": "https://github.com/ssnukala/ufsprinkle-recaptcha2",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name": "Srinivas Nukala",
+            "homepage": "http://srinivasnukala.com"
+        }
+    ],
+    "version": "4.0.0",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "UserFrosting\\Sprinkle\\ReCaptcha2\\": "src/"
+        }
+    },
+    "extra": {
+        "installer-name": "ReCaptcha2"
+    }
+}
